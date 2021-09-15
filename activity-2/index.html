@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2 | Brent Baugmart</title>
+</head>
+<body>
+
+    <img src="/images/guitars.jpg" alt="picture of guitars" width="300" height="250">
+    <br>
+    <a href="mailto:baumgab1@gmatc.matc.edu">Send me an an email</a>
+
+    <h1>My Favorite Guitars</h1>
+
+    <!-- Simple table -->
+    <table id="simple-table" border="2" cellspacing="0">
+        <tr>
+            <th>Model</th>
+            <th>Company Website</th>
+        </tr>
+
+        <tr>
+            <td>PRS Custom 24</td>
+            <td>
+                <a href="https://reverb.com/p/paul-reed-smith-ce-24" target="_blank">PRS Guitars</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Warmoth</td>
+            <td>
+                <a href="https://warmoth.com/" target="_blank">Warmoth</a>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Complex table -->
+    <table id="complex-table" border="2" cellspacing="2">
+        <thead>
+            <tr>
+                <th>Features</th>
+                <th scope="column">Is Electric</th>
+                <th scope="column">Available Used</th>
+                <th scope="column">Expensive</th>
+                <th scope="column">I Own</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td scope="row">PRS Custom 24</td>
+                <td colspan="4">yes</td>
+            </tr>
+
+            <tr>
+                <td>Warmoth</td>
+                <td colspan="3">yes</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+              <th colspan="5">Awesome Guitars!</th>
+            </tr>
+          </tfoot>
+
+    </table>
+
+    
+</body>
+</html>
