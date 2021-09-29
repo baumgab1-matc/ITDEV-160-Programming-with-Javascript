@@ -1,0 +1,70 @@
+body  {
+    background-color: #DFCCAF;
+    font-family: 'Merriweather', serif;
+}
+
+#about-text {
+    font-size: 28px;
+    line-height: 1.6;
+}
+
+#price-text {
+    font-size: 25px;
+}
+
+.container {
+    margin: auto;
+    width: 65%;
+    text-align: center;
+}
+
+.container img {
+    height: 380px;
+    width: 1024px;
+    border-radius: 15px;
+}
+
+#main-header {
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#facebook-link {
+    text-decoration: none;
+}
+
+#facebook-link:hover {
+    text-transform: uppercase;
+}
+
+#review-container {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 40%;
+    text-align: center;
+}
+
+#review-container h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.customer-review {
+    background-color: #854442;
+    border: 3px solid #3C2F2F;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-weight: bolder;
+    height: 160px;
+}
+
+.customer-review h3 {
+    font-size: 25px;
+}
+
+.customer-review p {
+    font-size: 23px;
+    padding: 10px;
+    font-style: italic;
+}
