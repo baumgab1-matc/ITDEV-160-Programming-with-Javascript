@@ -1,0 +1,48 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: auto 30px;
+}
+
+#main-header {
+    margin-bottom: 50px;
+    width: 55%;
+}
+
+#article-title {
+    font-size: 2.5em;
+}
+
+#main-header img {
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#header-image {
+    width: 100%;
+}
+
+.package-container {
+    width: 55%;
+    margin-top: 70px;
+}
+
+section img {
+    margin-bottom: 40px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 5px 12px 0 rgb(0 0 0 / 12%);
+    background-color: #008060;
+    margin-left: 40%;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 100px;
+}
